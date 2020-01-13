@@ -111,7 +111,7 @@ a.white {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: var(--green);
 	text-decoration: none;
 }
 
@@ -129,7 +129,7 @@ a.white {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: var(--green);
 	text-decoration: none;
 }
 
@@ -848,7 +848,6 @@ input[type='checkbox'] {
 /************************/
 .tabs {
 	padding-top: 6.5rem;
-	padding-bottom: 4.25rem;
 	background-color: var(--white);
 }
 
@@ -1031,6 +1030,10 @@ input[type='checkbox'] {
 
 .basic-1 .video-wrapper {
 	position: relative;
+}
+
+.basic-1 {
+	padding-top: 6.5rem;
 }
 
 /* Video Play Button */
@@ -1973,9 +1976,6 @@ a:hover.back-to-top {
 
 
 	/* Features */
-	.tabs {
-		padding-bottom: 6.5rem;
-	}
 
 	.tabs #tab-1 .card.first {
 		margin-top: 4.25rem;
