@@ -1,65 +1,31 @@
-/* Template: Leno - Mobile App HTML Landing Page Template
-   Author: Inovatik
-   Created: Mar 2019
-   Description: Master CSS file
-*/
+:root {
+	--blue: #114b5f;
+	--green: #00a676;
+	--whiteBlue: #f7f9f9;
+	--white: #ffffff;
+	--darkBlue: #0d1321;
+  }
 
-/*****************************************
-Table Of Contents:
-
-01. General Styles
-02. Preloader
-03. Navigation
-04. Header
-05. Features
-06. Video
-07. Details 1
-08. Details 2
-09. Details Lightboxes
-10. Screenshots
-11. Download
-12. Statistics
-13. Contact
-14. Footer
-15. Copyright
-16. Back To Top Button
-17. Extra Pages
-18. Media Queries
-******************************************/
-
-/*****************************************
-Colors:
-
-- Text, navbar links - white #f1f1f8
-- Buttons, bullets, icons - turquoise #00c9db
-- Navbar - navy #4633af
-- Backgrounds - dark denim #262431
-- Backgrounds - denim #2f2c3d
-******************************************/
-
-
-/******************************/
-/*     01. General Styles     */
-/******************************/
 body,
 html {
     width: 100%;
 	height: 100%;
+	font-family: "Montserrat", sans-serif;
 }
 
 body, p {
 	color: #f1f1f8; 
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.375rem  "Montserrat", sans-serif;
 }
 
 .p-large {
 	color: #f1f1f8;
-	font: 400 1rem/1.5rem "Open Sans", sans-serif;
+	font: 400 1rem/1.5rem  "Montserrat", sans-serif;
 }
 
 .p-small {
 	color: #f1f1f8;
-	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
+	font: 400 0.75rem/1.25rem  "Montserrat", sans-serif;
 }
 
 .p-heading {
@@ -124,7 +90,7 @@ a.white {
 }
 
 .testimonial-text {
-	font: italic 400 1rem/1.5rem "Open Sans", sans-serif;
+	font: italic 400 1rem/1.5rem "Montserrat", sans-serif;
 }
 
 .testimonial-author {
@@ -152,10 +118,10 @@ a.white {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #00A676;
+	border: 0.125rem solid var(--green);
 	border-radius: 1rem;
-	background-color: #00A676;
-	color: #fff;
+	background-color: var(--green);
+	color: var(--white);
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s ease;
@@ -251,7 +217,7 @@ a.white {
 	left: 1.375rem;
 	color: #f1f1f8;
 	opacity: 1;
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.375rem "Montserrat", sans-serif;
 	cursor: text;
 	transition: all 0.2s ease;
 }
@@ -284,7 +250,7 @@ a.white {
 	border-radius: 0.25rem;
 	background-color: #413d52;
 	color: #f1f1f8;
-	font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.875rem "Montserrat", sans-serif;
 	transition: all 0.2s ease;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
@@ -338,7 +304,7 @@ select::-ms-expand {
 	border-radius: 0.25rem;
 	background-color: #413d52;
 	color: #f1f1f8;
-	font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.75rem "Montserrat", sans-serif;
 	transition: all 0.2s ease;
 }
 
@@ -397,7 +363,7 @@ input[type='checkbox'] {
 	display: block;
 	margin-bottom: 0;
 	color: #f1f1f8;
-	font: 400 1.125rem/1rem "Open Sans", sans-serif;
+	font: 400 1.125rem/1rem "Montserrat", sans-serif;
 }
 
 .help-block.with-errors .list-unstyled {
