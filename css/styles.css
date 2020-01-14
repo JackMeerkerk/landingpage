@@ -1144,8 +1144,11 @@ input[type='checkbox'] {
 /*     08. Details 2     */
 /*************************/
 .basic-3 {
-	padding-bottom: 4.25rem;
 	background-color: var(--white);
+}
+
+._padding {
+	padding-bottom: 4.25rem !important;
 }
 
 .basic-3 .text-container {
@@ -1886,7 +1889,7 @@ a:hover.back-to-top {
 	/* Video */
 	.basic-1 .img-fluid {
 		min-width: 100% !important;
-		height: 40vw;
+		height: 45vw;
 	}
 	/* end of video */
 
@@ -1897,7 +1900,7 @@ a:hover.back-to-top {
 	}
 
 	.basic-2 .text-container {
-		margin-top: 8.5rem;
+		margin-top: 11.5rem;
 	}
 
 	.basic-2 h3  {
@@ -1906,6 +1909,7 @@ a:hover.back-to-top {
 
 	.basic-2 p  {
 		color: var(--darkBlue);
+		line-height: 1.6rem;
 	}
 	/* end of details 1 */
 
@@ -1916,12 +1920,24 @@ a:hover.back-to-top {
 		margin-bottom: 0;
 	}
 
+	.indicator-color {
+		color: var(--green);
+		margin-top: -1rem;
+		opacity: 20%;
+		font-size: 5em;
+		position: absolute;
+		font-weight: 500;
+		margin-left: -2rem;
+
+	}
+
 	.basic-3 h3 {
 		color: var(--darkBlue);
 	}
 
 	.basic-3 p {
 		color: var(--darkBlue);
+		line-height: 1.6rem;
 	}
 	/* end of details 2 */
 
@@ -2090,7 +2106,7 @@ a:hover.back-to-top {
 
 	/* Details 1 */
 	.basic-2 .text-container {
-		margin-top: 8.5rem;
+		margin-top:11.5rem;
 		margin-left: 4rem;
 		margin-right: 1.5rem;
 	}
