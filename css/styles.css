@@ -90,12 +90,8 @@ a.white {
 	color: #fff;
 }
 
-.testimonial-text {
-	font: italic 400 1rem/1.5rem "Montserrat", sans-serif;
-}
-
 .testimonial-author {
-	font: 700 1rem/1.5rem "Montserrat", sans-serif;
+	font: 500 1rem/1.5rem "Montserrat", sans-serif;
 }
 
 .btn-solid-reg {
@@ -822,12 +818,35 @@ input[type='checkbox'] {
 .slider-1 {
 	padding-top: 6.875rem;
 	padding-bottom: 6.375rem;
-	background-color: #262431;
+	background-color: var(--white);
 }
+
+.slider-1 h2 {
+	text-align: center;
+	margin-bottom: 2rem;
+	color: var(--darkBlue);
+}
+
+.slider-1 .p-heading {
+	color: var(--darkBlue);
+	font-weight: 400;
+	line-height: 1.6rem;
+	width: 38.5rem;
+}
+
+.slider-container p {
+	text-align: center;
+	color: var(--darkBlue);
+}
+
+.slider-container p:nth-child(2) {
+	color: var(--green);
+} 
 
 .slider-1 .slider-container {
 	position: relative;
 }
+
 
 .slider-1 .swiper-container {
 	position: static;
@@ -860,12 +879,20 @@ input[type='checkbox'] {
 }
 
 .slider-1 .card-image {
-	width: 6rem;
-	height: 6rem;
+	width: 9rem;
+	height: 9rem;
 	margin-right: auto;
 	margin-bottom: 0.25rem;
 	margin-left: auto;
 	border-radius: 50%;
+}
+
+.slider-1 .col-lg-6 .card-1 {
+	margin-left: 9rem;
+}
+
+.slider-1 .col-lg-6 .card-2 {
+	margin-right: 9rem;
 }
 
 .slider-1 .card-body {
@@ -1207,6 +1234,28 @@ input[type='checkbox'] {
 .basic-3 .btn-solid-reg {
 	margin-top: 0.5rem;
 }
+
+.basic-team .text-container {
+	padding: 3.0rem;
+}
+
+.basic-team .container {
+	margin-left: 4rem;
+}
+
+.basic-team {
+	background-color: #d8d8d8;
+}
+
+.basic-team .text-float {
+	background-color: white;
+	box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 4rem;
+    position: relative;
+    color: black;
+    margin-bottom: -4rem;
+}
+
 
 
 /**********************************/
@@ -2168,10 +2217,11 @@ a:hover.back-to-top {
 	
 	/* Details 2 */
 	.basic-3 .text-container {
-		margin-top: 8.5rem;
+		padding: 2.0rem!important;
 		margin-right: 3.5rem;
 		margin-left: 2rem;
 	}
+
 	/* end of details 2 */
 
 
