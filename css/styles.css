@@ -1239,12 +1239,18 @@ input[type='checkbox'] {
 	padding: 3.0rem;
 }
 
+.basic-team p {
+	font-size: 1rem;
+}
 .basic-team .container {
 	margin-left: 4rem;
+	height: 44rem;
 }
 
 .basic-team {
-	background-color: #d8d8d8;
+	background: url(/images/samenwerken.jpg) center;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .basic-team .text-float {
@@ -1253,10 +1259,9 @@ input[type='checkbox'] {
     margin-top: 4rem;
     position: relative;
     color: black;
-    margin-bottom: -4rem;
+	margin-bottom: -4rem;
+	height: 44rem;
 }
-
-
 
 /**********************************/
 /*     09. Details Lightboxes     */
@@ -2030,7 +2035,6 @@ a:hover.back-to-top {
 		position: absolute;
 		font-weight: 500;
 		margin-left: -2rem;
-
 	}
 
 	.basic-3 h3 {
@@ -2039,7 +2043,7 @@ a:hover.back-to-top {
 
 	.basic-3 p {
 		color: var(--darkBlue);
-		line-height: 1.6rem;
+		line-height: 1.8rem;
 	}
 	/* end of details 2 */
 
