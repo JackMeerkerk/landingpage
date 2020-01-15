@@ -784,7 +784,6 @@ input[type='checkbox'] {
 
 .header-team .header-content {
 	padding-top: 8.5rem;
-	padding-bottom: 7rem;
 	text-align: center;
 }
 
@@ -809,6 +808,13 @@ input[type='checkbox'] {
 .header-team .btn-solid-lg {
 	margin-right: 0.5rem;
 	margin-bottom: 1.25rem;
+}
+
+.header-team .team-header-img {
+	background: url(/images/team.png) center;
+	background-repeat: no-repeat;
+	height: 45rem;
+	margin-top: -6rem;
 }
 
 
@@ -2224,6 +2230,7 @@ a:hover.back-to-top {
 		padding: 2.0rem!important;
 		margin-right: 3.5rem;
 		margin-left: 2rem;
+		margin-top: 8.5rem;
 	}
 
 	/* end of details 2 */
