@@ -1394,8 +1394,6 @@ input[type='checkbox'] {
 /*     11. Download     */
 /************************/
 .basic-4 {
-	padding-top: 6.5rem;
-	padding-bottom: 6.75rem;
 	background-color: var(--opacityGreen);
 	background-size: cover; 
 }
@@ -2074,9 +2072,9 @@ a:hover.back-to-top {
 
 
 	/* Download */
-	.basic-4 {
+	/* .basic-4 {
 		padding-top: 6.75rem;
-	}
+	} */
 
 	.basic-4 .text-container {
 		margin-top: 7rem;
@@ -2230,6 +2228,9 @@ a:hover.back-to-top {
 		padding: 2.0rem!important;
 		margin-right: 3.5rem;
 		margin-left: 2rem;
+	}
+
+	.basic-3 .container-spots {
 		margin-top: 8.5rem;
 	}
 
